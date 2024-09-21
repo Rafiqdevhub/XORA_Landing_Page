@@ -1,8 +1,24 @@
-# React + Vite
+# Xora Landing App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Xora Landing is a modern, responsive landing page application built with **React** and styled using **Tailwind CSS** and **clsx** for conditional class management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Responsive design using Tailwind CSS
+- Conditional classnames using clsx
+- Optimized for fast performance and scalability
+- Clean, modular React components
+
+## Technologies Used
+
+- **React**: Frontend JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **clsx**: Utility for constructing `className` strings conditionally.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rafiqdevhub/XORA_Landing_Page.git
+   cd XORA_Landing_Page
+   ```
