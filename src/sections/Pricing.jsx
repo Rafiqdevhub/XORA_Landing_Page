@@ -38,7 +38,6 @@ const Pricing = () => {
                 )}
               />
             </div>
-
             <div className="pricing-bg">
               <img
                 src="/images/bg-outlines.svg"
@@ -56,8 +55,6 @@ const Pricing = () => {
               />
             </div>
           </div>
-
-          {/*  pricing section*/}
           <div className="scroll-hide relative z-2 -mt-12 flex items-start max-xl:gap-5 max-xl:overflow-auto max-xl:pt-6">
             {plans.map((plan, index) => (
               <div
@@ -67,7 +64,6 @@ const Pricing = () => {
                 {index === 1 && (
                   <div className="g4 absolute h-330 left-0 right-0 top-0 z-1 rounded-tl-3xl rounded-tr-3xl" />
                 )}
-
                 <div
                   className={clsx(
                     "absolute left-0 right-0 z-2 flex items-center justify-center",
@@ -83,7 +79,6 @@ const Pricing = () => {
                     )}
                   />
                 </div>
-
                 <div
                   className={clsx(
                     "relative flex flex-col items-center",
@@ -98,7 +93,6 @@ const Pricing = () => {
                   >
                     {plan.title}
                   </div>
-
                   <div className="relative z-2 flex items-center justify-center">
                     <div
                       className={clsx(
@@ -120,7 +114,6 @@ const Pricing = () => {
                     </div>
                   </div>
                 </div>
-
                 <div
                   className={clsx(
                     "body-1 relative z-2 mb-10 w-full border-b-s2 pb-9 text-center text-p4",
