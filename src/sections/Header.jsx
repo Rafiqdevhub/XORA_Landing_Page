@@ -43,7 +43,6 @@ const Header = () => {
         <a className="lg:hidden flex-1 cursor-pointer z-2">
           <img src="/images/xora.svg" width={115} height={55} alt="logo" />
         </a>
-
         <div
           className={clsx(
             "w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-s2 max-lg:opacity-0",
@@ -58,7 +57,6 @@ const Header = () => {
                   <div className="dot" />
                   <NavLink title="pricing" />
                 </li>
-
                 <li className="nav-logo">
                   <LinkScroll
                     to="hero"
@@ -77,7 +75,6 @@ const Header = () => {
                     />
                   </LinkScroll>
                 </li>
-
                 <li className="nav-li">
                   <NavLink title="faq" />
                   <div className="dot" />
@@ -85,7 +82,6 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-
             <div className="lg:hidden block absolute top-1/2 left-0 w-[960px] h-[380px] translate-x-[-290px] -translate-y-1/2 rotate-90">
               <img
                 src="/images/bg-outlines.svg"
@@ -104,7 +100,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-
         <button
           className="lg:hidden z-2 size-10 border-2 border-s4/25 rounded-full flex justify-center items-center"
           onClick={() => setIsOpen((prevState) => !prevState)}
